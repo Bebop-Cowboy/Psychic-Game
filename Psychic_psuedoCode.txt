@@ -1,0 +1,62 @@
+http://gt.bootcampcontent.com/GT-Coding-Boot-Camp/04-2017-ATL-Class-Repository.git
+https://github.com/rayjshin/Psychic-Game.git
+
+## Option One: Psychic Game (Basic)
+
+![Psychic](Images/1-Psychic.jpg)
+
+1. [Watch the demo](psychic-game-demo.mov).
+
+2. You're going to make a game just like the one in the video. Essentially, the app randomly picks a letter, and the user has to guess which letter the app chose. Put the following text on your page:
+
+3. Guess what letter I'm thinking of
+
+4. Wins: (# of times the user has guessed the letter correctly)
+
+5. Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
+
+6. Guesses Left: (# of guesses left. This will update)
+
+7. Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
+
+8. When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
+
+9. When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
+
+Psuedcoding: 
+
+Title: Do you have what it takes to be a Jedi Mind Reader? #thepsychicgame
+HTML: Display instructions. 
+	Can you guess the letter I'm thinking of?
+	To start playing, simply enter a letter for your guess. 
+	There will be a total of 5 rounds. 	
+	Each round you will have 10 guesses.
+	Happy guessing! May the force be with you. 
+	
+	WINNER Ranking: 
+			5/5: You are the chosen one.  
+			4/5: Silver Surfing Jedi.	  
+			3/5: You are not a Jedi yet. 
+	LOSER Ranking: 
+			0/5: There is no hope
+			1/5: There is another 
+			2/5: Don't give into the dark side. 
+Coding: 
+1. List variables, lower case letters a - z
+2.  	
+
+
+
+1)  - the user types different letters on the keyboard to
+
+2) Display screen (browser)
+	 - display the following: 
+		WINS: # of correctly guessed letters
+			- If the player wins increase the wins counter and restart game
+			- If the player wins more than 5 times - YOU ARE A PSYCHIC! Do you want to continue 				your training?
+		LOSSES: # of incorrectly guessed letters
+			- If the player loses increase the losses counter and restart game
+			- If the player loses more than 5 times - GAME OVER
+		Guesses Left: # of guesses left
+			 - this should update
+		Your guesses so far: specific letters that the user types should display until the user WINS 					or loses the round. 
