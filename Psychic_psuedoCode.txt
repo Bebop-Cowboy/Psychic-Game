@@ -41,10 +41,20 @@ HTML: Display instructions.
 			0/5: There is no hope
 			1/5: There is another 
 			2/5: Don't give into the dark side. 
-Coding: 
+	TIE Ranking: 
+					
+Outline: 
 1. List variables, lower case letters a - z
-2.  	
+	var computerChoices = ["a", ... , "z"];
 
+2. Create a function to loop for 10 cycles. 
+	for (var i = 0; i!== computerChoices.lengthl; i++){
+
+	}
+
+3. Create a function to loop the loop for 10 cycles 5 times 	
+4. Determine the results based on the 5 rounds
+5. Display the ranking. 
 
 
 1)  - the user types different letters on the keyboard to
@@ -60,3 +70,29 @@ Coding:
 		Guesses Left: # of guesses left
 			 - this should update
 		Your guesses so far: specific letters that the user types should display until the user WINS 					or loses the round. 
+
+
+
+		var computerChoices = ["a", ... "z"];
+
+		document.onkeyup = function(event) {
+		var userChoices = String.fromCharCode(event.keyCode).toLowerCase();
+			if ((userChoices ==="a") || ... ||(userChoices ==="z")) {
+				if ((userChoices !== computerChoices)){
+				losses++;		
+				}
+				else if ((userChoices === computerChoices)){
+				wins++;
+				}
+			}
+		}
+		 
+		
+		Create for loop cycle 10 times -
+		pickNumber: function() {
+			alert("Previous Letter Selection: " + this.computerChoices);
+			this.computerChoices = {user .onkeyup value};
+		},
+
+
+	
